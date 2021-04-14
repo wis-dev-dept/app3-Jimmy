@@ -1,0 +1,9 @@
+create database wis;
+
+use wis;
+
+CREATE TABLE `loginfo` (
+  `UserName` VARCHAR(45) NOT NULL,
+  `UserPassword` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`UserName`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
